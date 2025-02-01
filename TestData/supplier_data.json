@@ -1,0 +1,102 @@
+[
+    {
+        "supplier_id": 1,
+        "supplier_name": "ABC Distributors",
+        "contact_name": "John Doe",
+        "contact_email": "johndoe@abcdist.com",
+        "contact_phone": "+1-555-0100",
+        "country": "USA",
+        "rating": 4.8,
+        "last_order_date": "2024-11-20"
+    },
+    {
+        "supplier_id": 2,
+        "supplier_name": "Global Goods Inc.",
+        "contact_name": "Jane Smith",
+        "contact_email": "janesmith@globalgoods.com",
+        "contact_phone": "+1-555-0200",
+        "country": "Canada",
+        "rating": 4.3,
+        "last_order_date": "2024-11-19"
+    },
+    {
+        "supplier_id": 3,
+        "supplier_name": "GreenTech Solutions",
+        "contact_name": "Robert Johnson",
+        "contact_email": "robert.johnson@greentech.com",
+        "contact_phone": "+44-20-7946-0100",
+        "country": "UK",
+        "rating": 4.6,
+        "last_order_date": "2024-11-18"
+    },
+    {
+        "supplier_id": 4,
+        "supplier_name": "EuroWare",
+        "contact_name": "Emily White",
+        "contact_email": "emily.white@euro-ware.com",
+        "contact_phone": "+49-30-9876-5432",
+        "country": "Germany",
+        "rating": 4.2,
+        "last_order_date": "2024-11-22"
+    },
+    {
+        "supplier_id": 5,
+        "supplier_name": "Pacific Products",
+        "contact_name": "Michael Brown",
+        "contact_email": "michael.brown@pacificproducts.com",
+        "contact_phone": "+61-2-9345-6789",
+        "country": "Australia",
+        "rating": 4.7,
+        "last_order_date": "2024-11-17"
+    },
+    {
+        "supplier_id": 6,
+        "supplier_name": "Fresh Produce Co.",
+        "contact_name": "Sarah Taylor",
+        "contact_email": "sarah.taylor@freshproduce.com",
+        "contact_phone": "+33-1-7035-6789",
+        "country": "France",
+        "rating": 4.4,
+        "last_order_date": "2024-11-21"
+    },
+    {
+        "supplier_id": 7,
+        "supplier_name": "TechCore Electronics",
+        "contact_name": "David Lee",
+        "contact_email": "david.lee@techcore.com",
+        "contact_phone": "+81-3-4567-8901",
+        "country": "Japan",
+        "rating": 4.9,
+        "last_order_date": "2024-11-23"
+    },
+    {
+        "supplier_id": 8,
+        "supplier_name": "HanYang Trading",
+        "contact_name": "Laura King",
+        "contact_email": "laura.king@hanyang.com",
+        "contact_phone": "+86-10-8888-7777",
+        "country": "China",
+        "rating": 4.1,
+        "last_order_date": "2024-11-16"
+    },
+    {
+        "supplier_id": 9,
+        "supplier_name": "Indo Supplies",
+        "contact_name": "James Williams",
+        "contact_email": "james@indosupplies.com",
+        "contact_phone": "+91-22-2678-9101",
+        "country": "India",
+        "rating": 4.3,
+        "last_order_date": "2024-11-25"
+    },
+    {
+        "supplier_id": 10,
+        "supplier_name": "LatAm Imports",
+        "contact_name": "Olivia Harris",
+        "contact_email": "olivia.harris@latamimports.com",
+        "contact_phone": "+52-55-2345-6789",
+        "country": "Mexico",
+        "rating": 4.5,
+        "last_order_date": "2024-11-20"
+    }
+]

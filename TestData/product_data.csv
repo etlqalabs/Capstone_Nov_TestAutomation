@@ -1,0 +1,11 @@
+product_id,product_name,category,price,stock_quantity,brand,rating
+101,iPhone 15,Smartphones,999,50,Apple,4.8
+102,Samsung Galaxy S23,Smartphones,899,75,Samsung,4.7
+103,Dell XPS 13,Laptops,1200,30,Dell,4.6
+104,MacBook Pro 14,Laptops,2000,25,Apple,4.9
+105,Sony WH-1000XM5,Headphones,350,100,Sony,4.7
+106,Nike Air Zoom,Sneakers,120,200,Nike,4.5
+107,Samsung 55" TV,Electronics,700,40,Samsung,4.4
+108,Philips Hue Bulb,Smart Home,50,500,Philips,4.8
+109,Fitbit Charge 5,Wearables,150,150,Fitbit,4.6
+110,Kindle Paperwhite,eReaders,130,80,Amazon,4.7
