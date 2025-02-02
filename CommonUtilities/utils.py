@@ -1,10 +1,14 @@
 # Assignment :
-# 1. Complete the comparision for data from oracle stores table to staging_stores in mysql
-# 2. In the event of failure , capture the differences , implement a code
-# 3. Sales_data.csv to be sourced from Linux sytem ( Only for testing purpose )
+# 2. In the event of failure , capture the differences , implement a code in the utils.py
+# 4. Implement seperate execution log file for each test cases types ( extraction.,, Transfromation,loading)
+# 5 . Install and ready with Jenkins
+
+#  => done in the class => 1. Complete the comparision for data from oracle stores table to staging_stores in mysql
+# done in the class => 3. Sales_data.csv to be sourced from Linux sytem ( Only for testing purpose )
 
 import logging
 import pandas as pd
+import paramiko
 import pytest
 from sqlalchemy import create_engine
 
@@ -41,3 +45,40 @@ def reconcile_file_to_db(file_path,file_type,table_name,db_engine):
     df_actual = pd.read_sql(query, db_engine)
     logger.info(f"The actual data is: {df_actual}")
     assert df_actual.equals(df_expected), f"data in file {file_path} and table {table_name} not matching"
+
+# Utility to connect to Linux and fetch the data and store in local
+def getDataFromLinuxBox(linux_file_path,local_file_path):
+    try:
+        # connect to ssh
+        ssh_client = paramiko.SSHClient()
+        ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy)
+        # to conenct to linux server
+        ssh_client.connect(hostname,username=username,password=password)
+        sftp = ssh_client.open_sftp()
+        # download the file from linux server to local
+        sftp.get(linux_file_path,local_file_path)
+        logger.info("The file from Linux is downlaoded to local")
+    except Exception as e:
+        logger.error(f"Error whilee connecting Linux {e}")
+'''
+def reconcile_db_to_db(table_name1,db_engine1,table_name2,db_engine2):
+    query_expected = f"select * from {table_name1}"
+    df_expected = pd.read_sql(query_expected, db_engine1)
+    logger.info(f"The expected data is: {df_expected}")
+    query_actual = f"select * from {table_name2}"
+    df_actual = pd.read_sql(query_actual, db_engine2)
+    logger.info(f"The actual data is: {df_actual}")
+    assert df_actual.equals(df_expected), f"data in  {table_name1} and table {table_name2} not matching"
+'''
+
+def reconcile_db_to_db(query1,db_engine1,query2,db_engine2):
+    df_expected = pd.read_sql(query1, db_engine1).astype(str)
+    logger.info(f"The expected data is: {df_expected}")
+    df_actual = pd.read_sql(query2, db_engine2).astype(str)
+    logger.info(f"The actual data is: {df_actual}")
+    assert df_actual.equals(df_expected), f"data in  {query1} and table {query2} not matching"
+
+
+
+
+

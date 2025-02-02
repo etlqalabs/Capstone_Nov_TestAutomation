@@ -11,3 +11,10 @@ MYSQL_PASSWORD = 'Admin%40143'
 MYSQL_HOST = 'localhost'
 MYSQL_PORT = '3308'
 MYSQL_DATABASE = 'retaildwh'
+
+# Linux Credential
+hostname = '192.168.0.109'
+username = 'etlqalabs'
+password = 'root'
+#linux_file_path = '/home/etlqalabs/Data/sales_data_tobeDeleted.csv'
+#local_file_path = 'TestData/sales_data_from_Linux.csv'

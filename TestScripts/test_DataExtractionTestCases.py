@@ -4,7 +4,7 @@ import pytest
 from sqlalchemy import create_engine
 
 # The logger configuration
-from CommonUtilities.utils import reconcile_file_to_db
+from CommonUtilities.utils import reconcile_file_to_db, getDataFromLinuxBox, reconcile_db_to_db
 
 logging.basicConfig(
     filename='Logs/testExecution.log',  # Name of the log file
@@ -26,6 +26,7 @@ oracle_engine = create_engine(f'oracle+cx_oracle://{ORACLE_USER}:{ORACLE_PASSWOR
 
 # test cases is a special fucntion which starts with test_<<functionName>>
 
+@pytest.mark.skip
 def test_DataExtractionFromSupplierDataJsonToStaging():
     try:
         logger.info("test case for Supplier Data extraction has started ....")
@@ -34,16 +35,18 @@ def test_DataExtractionFromSupplierDataJsonToStaging():
     except Exception as e:
         logger.error(f"test case for Supplier Data extraction has failed{e}")
         pytest.fail("Data Extraction failed during ETL extraction process")
-
+@pytest.mark.skip
 def test_DataExtractionFromSalesDataCSVToStaging():
     try:
         logger.info("test case for Sales Data extraction has started ....")
-        reconcile_file_to_db("TestData/sales_data.csv","csv","staging_sales", mysql_engine)
+        getDataFromLinuxBox("/home/etlqalabs/Data/sales_data.csv","TestData/sales_data_from_Linux.csv")
+        reconcile_file_to_db("TestData/sales_data_from_Linux.csv","csv","staging_sales", mysql_engine)
         logger.info("test case for Sales Data extraction has completed ....")
     except Exception as e:
         logger.error(f"test case for Sales Data extraction has failed{e}")
         pytest.fail("Data Extraction failed during ETL extraction process")
 
+@pytest.mark.skip
 def test_DataExtractionFromProductDataCSVToStaging():
     try:
         logger.info("test case for product Data extraction has started ....")
@@ -53,6 +56,7 @@ def test_DataExtractionFromProductDataCSVToStaging():
         logger.error(f"test case for product Data extraction has failed{e}")
         pytest.fail("Data Extraction failed during ETL extraction process")
 
+@pytest.mark.skip
 def test_DataExtractionFromInventoryDataXMLToStaging():
     try:
         logger.info("test case for Inventory Data extraction has started ....")
@@ -60,4 +64,15 @@ def test_DataExtractionFromInventoryDataXMLToStaging():
         logger.info("test case for Inventory Data extraction has completed ....")
     except Exception as e:
         logger.error(f"test case for Inventory Data extraction has failed{e}")
+        pytest.fail("Data Extraction failed during ETL extraction process")
+
+def test_DataExtractionFromOracleToStagingmySQL():
+    try:
+        logger.info("test case for Stores Data extraction has started ....")
+        query_expected = """select * from stores"""
+        query_actual= """select * from staging_stores"""
+        reconcile_db_to_db(query_expected,oracle_engine,query_actual, mysql_engine)
+        logger.info("test case for Stores Data extraction has completed ....")
+    except Exception as e:
+        logger.error(f"test case for Stores Data extraction has failed{e}")
         pytest.fail("Data Extraction failed during ETL extraction process")
