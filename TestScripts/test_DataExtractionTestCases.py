@@ -39,7 +39,7 @@ def test_DataExtractionFromSupplierDataJsonToStaging():
 def test_DataExtractionFromSalesDataCSVToStaging():
     try:
         logger.info("test case for Sales Data extraction has started ....")
-        getDataFromLinuxBox("/home/etlqalabs/Data/sales_data.csv","TestData/sales_data_from_Linux.csv")
+        #getDataFromLinuxBox("/home/etlqalabs/Data/sales_data.csv","TestData/sales_data_from_Linux.csv")
         reconcile_file_to_db("TestData/sales_data_from_Linux.csv","csv","staging_sales", mysql_engine)
         logger.info("test case for Sales Data extraction has completed ....")
     except Exception as e:
