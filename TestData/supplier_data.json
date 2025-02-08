@@ -9,8 +9,18 @@
         "rating": 4.8,
         "last_order_date": "2024-11-20"
     },
+     {
+        "supplier_id": 1,
+        "supplier_name": "ABC Distributors",
+        "contact_name": "John Doe",
+        "contact_email": "johndoe@abcdist.com",
+        "contact_phone": "+1-555-0100",
+        "country": "USA",
+        "rating": 4.8,
+        "last_order_date": "2024-11-20"
+    },
     {
-        "supplier_id": 2,
+         "supplier_id": 2,
         "supplier_name": "Global Goods Inc.",
         "contact_name": "Jane Smith",
         "contact_email": "janesmith@globalgoods.com",
@@ -20,7 +30,6 @@
         "last_order_date": "2024-11-19"
     },
     {
-        "supplier_id": 3,
         "supplier_name": "GreenTech Solutions",
         "contact_name": "Robert Johnson",
         "contact_email": "robert.johnson@greentech.com",

@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 from CommonUtilities.utils import reconcile_file_to_db, getDataFromLinuxBox, reconcile_db_to_db
 
 logging.basicConfig(
-    filename='Logs/testExecutionTransfromation.log',  # Name of the log file
+    filename='Logs/testDataTransformation.log',  # Name of the log file
     filemode='w',  # 'a' to append, 'w' to overwrite
     format='%(asctime)s - %(levelname)s - %(message)s',  # Log format
     level=logging.INFO  # Set the logging level

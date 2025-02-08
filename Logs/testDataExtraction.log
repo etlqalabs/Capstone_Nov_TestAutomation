@@ -1,0 +1,1918 @@
+2025-02-08 12:40:17,972 - INFO - test case for product Data extraction has started ....
+2025-02-08 12:40:18,026 - INFO - The expected data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:40:18,240 - INFO - The actual data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:40:18,240 - INFO - test case for product Data extraction has completed ....
+2025-02-08 12:40:18,246 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 12:40:18,397 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:40:18,433 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:40:18,434 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 12:40:18,437 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 12:40:19,228 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:40:19,248 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:40:19,248 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 12:44:14,959 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 12:44:15,288 - INFO - Authentication (password) successful!
+2025-02-08 12:44:15,554 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 12:44:15,569 - INFO - The file from Linux is downlaoded to local
+2025-02-08 12:44:15,570 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 12:44:15,602 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:44:15,651 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:44:15,654 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 12:44:15,658 - INFO - test case for product Data extraction has started ....
+2025-02-08 12:44:15,677 - INFO - The expected data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:44:15,712 - INFO - The actual data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:44:15,713 - INFO - test case for product Data extraction has completed ....
+2025-02-08 12:44:15,720 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 12:44:15,807 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:44:15,838 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:44:15,838 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 12:44:15,841 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 12:44:16,189 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:44:16,214 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:44:16,214 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 12:49:29,707 - INFO - my sql db connection is being establish
+2025-02-08 12:49:29,708 - INFO - my sql db connection is successfully established
+2025-02-08 12:49:29,708 - INFO - Linux  connection is being establish
+2025-02-08 12:49:29,755 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 12:49:29,895 - INFO - Authentication (password) successful!
+2025-02-08 12:49:30,249 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 12:49:30,490 - INFO - The file from Linux is downlaoded to local
+2025-02-08 12:49:30,491 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 12:49:30,522 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:49:30,577 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:49:30,578 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 12:49:30,581 - INFO - my sql db connection is being establish
+2025-02-08 12:49:30,581 - INFO - my sql db connection is successfully established
+2025-02-08 12:49:30,582 - INFO - test case for product Data extraction has started ....
+2025-02-08 12:49:30,598 - INFO - The expected data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:49:30,642 - INFO - The actual data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:49:30,643 - INFO - test case for product Data extraction has completed ....
+2025-02-08 12:49:30,654 - INFO - my sql db connection is being establish
+2025-02-08 12:49:30,655 - INFO - my sql db connection is successfully established
+2025-02-08 12:49:30,657 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 12:49:30,682 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:49:30,728 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:49:30,728 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 12:49:30,731 - INFO - my sql db connection is being establish
+2025-02-08 12:49:30,731 - INFO - my sql db connection is successfully established
+2025-02-08 12:49:30,731 - INFO - oracle db connection is being establish
+2025-02-08 12:49:30,732 - INFO - oracle db connection is being establish
+2025-02-08 12:49:30,733 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 12:49:31,142 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:49:31,422 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:49:31,423 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 12:53:33,963 - INFO - my sql db connection is being establish
+2025-02-08 12:53:33,981 - INFO - my sql db connection is successfully established
+2025-02-08 12:53:33,981 - INFO - Linux  connection is being establish
+2025-02-08 12:53:34,026 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 12:53:34,156 - INFO - Authentication (password) successful!
+2025-02-08 12:53:34,461 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 12:53:34,476 - INFO - The file from Linux is downlaoded to local
+2025-02-08 12:53:34,477 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 12:53:34,524 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:53:34,567 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:53:34,568 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 12:53:34,570 - INFO - my sql connection is closed...
+2025-02-08 12:53:34,571 - INFO - my sql db connection is being establish
+2025-02-08 12:53:34,588 - INFO - my sql db connection is successfully established
+2025-02-08 12:53:34,589 - INFO - test case for product Data extraction has started ....
+2025-02-08 12:53:34,604 - INFO - The expected data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:53:34,624 - INFO - The actual data is:    product_id        product_name     category  ...  stock_quantity    brand rating
+0         101           iPhone 15  Smartphones  ...              50    Apple    4.8
+1         102  Samsung Galaxy S23  Smartphones  ...              75  Samsung    4.7
+2         103         Dell XPS 13      Laptops  ...              30     Dell    4.6
+3         104      MacBook Pro 14      Laptops  ...              25    Apple    4.9
+4         105     Sony WH-1000XM5   Headphones  ...             100     Sony    4.7
+5         106       Nike Air Zoom     Sneakers  ...             200     Nike    4.5
+6         107      Samsung 55" TV  Electronics  ...              40  Samsung    4.4
+7         108    Philips Hue Bulb   Smart Home  ...             500  Philips    4.8
+8         109     Fitbit Charge 5    Wearables  ...             150   Fitbit    4.6
+9         110   Kindle Paperwhite     eReaders  ...              80   Amazon    4.7
+
+[10 rows x 7 columns]
+2025-02-08 12:53:34,625 - INFO - test case for product Data extraction has completed ....
+2025-02-08 12:53:34,627 - INFO - my sql connection is closed...
+2025-02-08 12:53:34,631 - INFO - my sql db connection is being establish
+2025-02-08 12:53:34,655 - INFO - my sql db connection is successfully established
+2025-02-08 12:53:34,656 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 12:53:34,687 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:53:34,712 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:53:34,713 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 12:53:34,715 - INFO - my sql connection is closed...
+2025-02-08 12:53:34,717 - INFO - my sql db connection is being establish
+2025-02-08 12:53:34,733 - INFO - my sql db connection is successfully established
+2025-02-08 12:53:34,734 - INFO - oracle db connection is being establish
+2025-02-08 12:53:34,735 - INFO - oracle db connection is being establish
+2025-02-08 12:53:34,736 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 12:53:35,049 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:53:35,062 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:53:35,062 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 12:53:35,064 - INFO - my sql connection is closed...
+2025-02-08 12:59:36,901 - INFO - my sql db connection is being establish
+2025-02-08 12:59:36,925 - INFO - my sql db connection is successfully established
+2025-02-08 12:59:36,925 - INFO - Linux  connection is being establish
+2025-02-08 12:59:36,946 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 12:59:37,101 - INFO - Authentication (password) successful!
+2025-02-08 12:59:37,294 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 12:59:37,305 - INFO - The file from Linux is downlaoded to local
+2025-02-08 12:59:37,306 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 12:59:37,328 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:59:37,354 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:59:37,356 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 12:59:37,358 - INFO - my sql connection is closed...
+2025-02-08 12:59:56,648 - INFO - my sql db connection is being establish
+2025-02-08 12:59:56,661 - INFO - my sql db connection is successfully established
+2025-02-08 12:59:56,661 - INFO - Linux  connection is being establish
+2025-02-08 12:59:56,682 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 12:59:56,796 - INFO - Authentication (password) successful!
+2025-02-08 12:59:57,033 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 12:59:57,044 - INFO - The file from Linux is downlaoded to local
+2025-02-08 12:59:57,045 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 12:59:57,061 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:59:57,080 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 12:59:57,081 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 12:59:57,082 - INFO - my sql connection is closed...
+2025-02-08 12:59:57,083 - INFO - my sql db connection is being establish
+2025-02-08 12:59:57,099 - INFO - my sql db connection is successfully established
+2025-02-08 12:59:57,100 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 12:59:57,244 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:59:57,252 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 12:59:57,252 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 12:59:57,254 - INFO - my sql connection is closed...
+2025-02-08 12:59:57,255 - INFO - my sql db connection is being establish
+2025-02-08 12:59:57,269 - INFO - my sql db connection is successfully established
+2025-02-08 12:59:57,269 - INFO - oracle db connection is being establish
+2025-02-08 12:59:57,269 - INFO - oracle db connection is being establish
+2025-02-08 12:59:57,271 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 12:59:57,645 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:59:57,653 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 12:59:57,653 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 12:59:57,655 - INFO - my sql connection is closed...
+2025-02-08 13:00:13,311 - INFO - my sql db connection is being establish
+2025-02-08 13:00:13,328 - INFO - my sql db connection is successfully established
+2025-02-08 13:00:13,329 - INFO - Linux  connection is being establish
+2025-02-08 13:00:13,358 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 13:00:13,462 - INFO - Authentication (password) successful!
+2025-02-08 13:00:13,705 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 13:00:13,756 - INFO - The file from Linux is downlaoded to local
+2025-02-08 13:00:13,758 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 13:00:13,782 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 13:00:13,812 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 13:00:13,812 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 13:00:13,814 - INFO - my sql connection is closed...
+2025-02-08 13:00:13,816 - INFO - my sql db connection is being establish
+2025-02-08 13:00:13,831 - INFO - my sql db connection is successfully established
+2025-02-08 13:00:13,832 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 13:00:13,857 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 13:00:13,879 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 13:00:13,879 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 13:00:13,883 - INFO - my sql connection is closed...
+2025-02-08 13:00:13,884 - INFO - my sql db connection is being establish
+2025-02-08 13:00:13,889 - INFO - my sql db connection is successfully established
+2025-02-08 13:00:13,891 - INFO - oracle db connection is being establish
+2025-02-08 13:00:13,891 - INFO - oracle db connection is being establish
+2025-02-08 13:00:13,891 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 13:00:14,109 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 13:00:14,121 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 13:00:14,121 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 13:00:14,122 - INFO - my sql connection is closed...
+2025-02-08 13:02:14,558 - INFO - my sql db connection is being establish
+2025-02-08 13:02:14,571 - INFO - my sql db connection is successfully established
+2025-02-08 13:02:14,571 - INFO - Linux  connection is being establish
+2025-02-08 13:02:14,591 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 13:02:14,700 - INFO - Authentication (password) successful!
+2025-02-08 13:02:14,886 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 13:02:14,895 - INFO - The file from Linux is downlaoded to local
+2025-02-08 13:02:14,896 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 13:02:14,913 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 13:02:14,940 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 13:02:14,940 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 13:02:14,941 - INFO - my sql connection is closed...
+2025-02-08 13:02:14,944 - INFO - my sql db connection is being establish
+2025-02-08 13:02:14,958 - INFO - my sql db connection is successfully established
+2025-02-08 13:02:14,959 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 13:02:14,979 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 13:02:14,992 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 13:02:14,993 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 13:02:14,996 - INFO - my sql connection is closed...
+2025-02-08 13:02:14,998 - INFO - my sql db connection is being establish
+2025-02-08 13:02:15,019 - INFO - my sql db connection is successfully established
+2025-02-08 13:02:15,020 - INFO - oracle db connection is being establish
+2025-02-08 13:02:15,020 - INFO - oracle db connection is being establish
+2025-02-08 13:02:15,021 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 13:02:15,224 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 13:02:15,232 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 13:02:15,232 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 13:02:15,234 - INFO - my sql connection is closed...
+2025-02-08 13:05:28,584 - INFO - my sql db connection is being establish
+2025-02-08 13:05:28,609 - INFO - my sql db connection is successfully established
+2025-02-08 13:05:28,609 - INFO - Linux  connection is being establish
+2025-02-08 13:05:28,629 - INFO - Connected (version 2.0, client OpenSSH_8.7)
+2025-02-08 13:05:28,762 - INFO - Authentication (password) successful!
+2025-02-08 13:05:29,004 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-02-08 13:05:29,015 - INFO - The file from Linux is downlaoded to local
+2025-02-08 13:05:29,016 - INFO - test case for Sales Data extraction has started ....
+2025-02-08 13:05:29,028 - INFO - The expected data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 13:05:29,047 - INFO - The actual data is:     sales_id  product_id  store_id  quantity  price   sale_date region
+0          1         101         1        10   15.0  2024-09-01   High
+1          2         102         1         5   25.0  2024-09-01    Low
+2          3         103         2         7   20.0  2024-09-02   High
+3          4         104         2         3   30.0  2024-09-03    Low
+4          5         105         1        12   12.0  2024-09-05   High
+5          6         106         3         8   18.0  2024-09-06    Low
+6          7         107         1         4   22.0  2024-09-07   High
+7          8         108         2         6   24.0  2024-09-08    Low
+8          9         109         3        11   19.0  2024-09-09   High
+9         10         110         4         9   17.0  2024-09-10    Low
+10        11         101         4        15   14.0  2024-09-11   High
+11        12         102         5         9   27.0  2024-09-12    Low
+12        13         103         6        10   22.0  2024-09-13   High
+13        14         104         7         8   31.0  2024-09-14    Low
+14        15         105         4        12   11.0  2024-09-15   High
+15        16         106         5         5   23.0  2024-09-16    Low
+16        17         107         6         3   26.0  2024-09-17   High
+17        18         108         7         6   28.0  2024-09-18    Low
+18        19         109         8        11   20.0  2024-09-19   High
+19        20         110         9         9   19.5  2024-09-20    Low
+20        21         101         1        14   15.5  2024-09-21   High
+21        22         102         2         8   22.0  2024-09-22    Low
+22        23         103         3         7   18.0  2024-09-23   High
+23        24         104         4         6   25.0  2024-09-24    Low
+24        25         105         2        12   13.5  2024-09-25   High
+25        26         106         3         5   21.0  2024-09-26    Low
+26        27         107         1        10   19.0  2024-09-27   High
+27        28         108         5         6   27.0  2024-09-28    Low
+28        29         109         6         9   24.0  2024-09-29   High
+29        30         110         7         7   23.5  2024-09-30    Low
+30        31         101         4        13   14.5  2024-10-01   High
+31        32         102         5         6   29.0  2024-10-02    Low
+32        33         103         6         8   21.0  2024-10-03   High
+33        34         104         7         5   30.0  2024-10-04    Low
+34        35         105         4         7   15.0  2024-10-05   High
+35        36         106         5         3   25.0  2024-10-06    Low
+36        37         107         6        12   18.0  2024-10-07   High
+37        38         108         7         9   20.0  2024-10-08    Low
+38        39         109         8        10   22.0  2024-10-09   High
+39        40         110         9         6   26.0  2024-10-10    Low
+40        41         101         3         5   15.0  2024-10-11   High
+41        42         102         4         4   20.0  2024-10-12    Low
+42        43         103         5         9   19.0  2024-10-13   High
+43        44         104         6         7   28.0  2024-10-14    Low
+44        45         105         7        10   25.0  2024-10-15   High
+45        46         106         8         8   22.5  2024-10-16    Low
+46        47         107         9         6   24.0  2024-10-17   High
+47        48         108         1         3   27.0  2024-10-18    Low
+48        49         109         2        11   18.5  2024-10-19   High
+49        50         110         3        12   21.0  2024-10-20    Low
+50        51         101         1        10   15.0  2024-08-01   High
+51        52         101         1         5   25.0  2024-08-01    Low
+52        53         101         2         7   20.0  2023-09-02   High
+53        54         101         2         3   30.0  2023-09-03    Low
+54        55         105         1        12   12.0  2024-09-05   High
+55        56         106         3         8   18.0  2024-09-06    Low
+56        57         107         1         4   22.0  2024-09-07   High
+57        58         108         2         6   24.0  2024-09-08    Low
+58        59         109         3        11   19.0  2024-09-09   High
+59        60         110         4         9   17.0  2024-09-10    Low
+2025-02-08 13:05:30,352 - INFO - test case for Sales Data extraction has completed ....
+2025-02-08 13:05:30,354 - INFO - my sql connection is closed...
+2025-02-08 13:05:30,356 - INFO - my sql db connection is being establish
+2025-02-08 13:05:30,369 - INFO - my sql db connection is successfully established
+2025-02-08 13:05:30,369 - INFO - test case for Inventory Data extraction has started ....
+2025-02-08 13:05:30,390 - INFO - The expected data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 13:05:30,402 - INFO - The actual data is:     product_id  store_id  quantity_on_hand last_updated
+0          101         1                50   2024-09-01
+1          102         1                30   2024-09-02
+2          103         2                40   2024-09-03
+3          106         3                25   2024-09-06
+4          107         1                35   2024-09-07
+5          108         2                45   2024-09-08
+6          109         3                55   2024-09-09
+7          110         3                65   2024-09-10
+8          101         4                50   2024-09-11
+9          102         4                40   2024-09-12
+10         103         5                30   2024-09-13
+11         104         5                20   2024-09-14
+12         105         6                50   2024-09-15
+13         106         6                60   2024-09-16
+14         107         7                30   2024-09-17
+15         108         7                40   2024-09-18
+16         109         8                45   2024-09-19
+17         110         8                55   2024-09-20
+18         101         9                65   2024-09-21
+19         102         9                75   2024-09-22
+20         103        10                80   2024-09-23
+21         104        10                90   2024-09-24
+22         106         2               110   2024-09-26
+23         107         3               120   2024-09-27
+24         108         4               130   2024-09-28
+25         109         5               140   2024-09-29
+26         110         6               150   2024-09-30
+27         101         7               160   2024-10-01
+28         102         8               170   2024-10-02
+29         103         9               180   2024-10-03
+2025-02-08 13:05:30,403 - INFO - test case for Inventory Data extraction has completed ....
+2025-02-08 13:05:30,404 - INFO - my sql connection is closed...
+2025-02-08 13:05:30,405 - INFO - my sql db connection is being establish
+2025-02-08 13:05:30,421 - INFO - my sql db connection is successfully established
+2025-02-08 13:05:30,421 - INFO - oracle db connection is being establish
+2025-02-08 13:05:30,421 - INFO - oracle db connection is being establish
+2025-02-08 13:05:30,423 - INFO - test case for Stores Data extraction has started ....
+2025-02-08 13:05:30,677 - INFO - The expected data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 13:05:30,687 - INFO - The actual data is:   store_id    store_name
+0        1       Walmart
+1        2        Target
+2        3      Best Buy
+3        4        Costco
+4        5    Home Depot
+5        6        Lowe's
+6        7   Apple Store
+7        8          IKEA
+8        9     Walgreens
+9       10  CVS Pharmacy
+2025-02-08 13:05:30,688 - INFO - test case for Stores Data extraction has completed ....
+2025-02-08 13:05:30,689 - INFO - my sql connection is closed...
