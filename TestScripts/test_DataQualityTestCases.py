@@ -4,6 +4,8 @@ Assignemnt:
 2. Implement the class for each of the other test files ( transfirmation, data quality, loading)
 3. Implement the after test ( yiled ) for other fixtures ( we have done for mysql )
 4. implment markets ( tags ) for each test cases
+5. create a jenkins job for dev process and configure smoke test job to trigger it automation
+   when dev job is complete successfully
 
 
 '''
