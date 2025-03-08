@@ -6,8 +6,6 @@ Assignemnt:
 4. implment markets ( tags ) for each test cases
 5. create a jenkins job for dev process and configure smoke test job to trigger it automation
    when dev job is complete successfully
-
-
 '''
 
 import logging
